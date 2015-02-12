@@ -1,8 +1,17 @@
 //Responsive Web Design
-//Task: Carousel must work on desktop, tablet, & mobile device
+//Task: 
+Build a responsive page per wireframes provided 
+* annotations intentionally removed 
+* carousel arrows should be functional 
+* for tablet & mobile, user should be able to swipe through carousel 
+* code and assets can be supplied as Zip or preferably in a repository (SVN, github, bitbucket, etc…)
 
 
 
 
 2015.02.11 - Update
 --------------------
+
+2015.02.12 - Update
+--------------------
+Responsive design possibly 90% nailed down. Test menu/navigation also displaying and hiding at appropriate dimensions.
