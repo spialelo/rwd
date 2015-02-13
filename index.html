@@ -5,7 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link href="css/normalize.css" type="text/css" rel="stylesheet" />
 <link href="css/main.css" type="text/css" rel="stylesheet" />
-
+<link rel="stylesheet" href="css/blueimp-gallery.css">
+<link rel="stylesheet" href="css/blueimp-gallery-indicator.css">
   <title>
     MC Health: Responsive Web Design
   </title>
@@ -48,7 +49,13 @@
   <section id="home-main">
     
     <!--insert jquery code for image carousel-->
-    <img src="images/bcg_slide-1.jpg" class="carousel-image"/>
+    <div id="blueimp-image-carousel" class="blueimp-gallery blueimp-gallery-carousel">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="play-pause"></a>
+</div>
 
 
     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
