@@ -19,3 +19,8 @@ Responsive design possibly 90% nailed down. Test menu/navigation also displaying
 2015.02.12 - Update
 --------------------
 Implemented the navigation icon, my own way. Found other versions, but was unable to pin point why they were not fully rendering. Next time, use an image or SVG.
+
+
+2015.02.15 - Update
+--------------------
+Implemented carousel using Ken Wheeler's Slick carousel. http://kenwheeler.github.io/slick/
