@@ -24,3 +24,5 @@ Implemented the navigation icon, my own way. Found other versions, but was unabl
 2015.02.15 - Update
 --------------------
 Implemented carousel using Ken Wheeler's Slick carousel. http://kenwheeler.github.io/slick/
+
+Update #2: Carousel 4/5 working. There is a container/overflow issue, that I'm looking into. Also need to implement the jQuery to make home link active or style it inline.
