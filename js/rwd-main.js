@@ -17,9 +17,7 @@
           if($(this).attr("href") == pgurl || $(this).attr("href") == '' )
           $(this).addClass("active");
      })
-})
-
-
+}) /*was unable to implement this, at the time. will look into.*/
 
     });
 

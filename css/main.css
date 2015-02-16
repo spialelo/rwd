@@ -37,6 +37,7 @@ body{
   color: black;
 }
 
+
 .clearfix:before, .clearfix:after{
   content:"";
   display: table;
@@ -147,11 +148,20 @@ padding-bottom: 15px;
 
 }
 
-.carousel-image{
+
+.slider{
+  width: 300px;
+  padding-left: 50px;
   margin: 0 auto;
-  width: 80%;
-  height: 80%;
 }
+
+.slider-image{
+  width: 75%;
+  height: 75%;
+
+}
+
+
 
 #home-asides{
 float: left;
@@ -192,7 +202,7 @@ border: 1px solid #444;
 
 
 
-    #container{
+#container{
 margin: 10px auto 0; 
 width: 100%;
 overflow: hidden;
@@ -248,6 +258,7 @@ nav ul li .active {
     }
 
 
+
 #main-content{
   float: left;
   padding-left: 5px;
@@ -264,6 +275,19 @@ border: 1px solid #444;
 overflow: hidden;
 }
 
+.slider{
+  width: 300px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.slider-image{
+  width: 75%;
+  height: 75%;
+
+}
+
+
 #home-asides{
 float: left;
 width: 30%;
@@ -276,11 +300,7 @@ padding-bottom: 15px;
 
 }
 
-.carousel-image{
-  margin: 0 auto;
-  width: 80%;
-  height: 80%;
-}
+
 
 #home-aside-one{
 float: left;
@@ -381,19 +401,6 @@ border-bottom:5px solid #444;
 }
 
 
-.slider{
-  width: 300px;
-  position: relative;
-  margin: 0 auto;
-}
-
-.slider-image{
-  width: 75%;
-  height: 75%;
-
-}
-
-
 #main-content{
   float: left;
   padding-left: 5px;
@@ -414,6 +421,18 @@ margin-right: 10px;
 padding: 10px;
 border: 1px solid #444;
 overflow: hidden;
+}
+
+.slider{
+  width: 300px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.slider-image{
+  width: 75%;
+  height: 75%;
+
 }
 
 #home-asides{
@@ -437,12 +456,6 @@ margin-left: 0px;
 padding: 10px;
 border: 1px solid #444;
 
-}
-
-.carousel-image{
-  margin: 0 auto;
-  width: 80%;
-  height: 80%;
 }
 
 
@@ -525,8 +538,6 @@ border-bottom:5px solid #444;
     border-top:5px solid #444;
 }
 
-
-
 #main-content{
   float: left;
   padding-left: 5px;
@@ -541,6 +552,18 @@ margin-bottom: 20px;
 padding: 20px;
 border: 1px solid #444;
 overflow: hidden;
+}
+
+.slider{
+  width: 300px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.slider-image{
+  width: 75%;
+  height: 75%;
+
 }
 
 img {
@@ -570,14 +593,6 @@ padding: 20px;
 border: 1px solid #444;
 
 }
-
-
-.carousel-image{
-  margin: 0 auto;
-  width: 80%;
-  height: 80%;
-}
-
 
 
 
@@ -661,8 +676,6 @@ border-bottom:5px solid #444;
     border-top:5px solid #444;
 }
 
-
-
 #main-content{
   float: left;
   padding-left: 5px;
@@ -679,6 +692,22 @@ padding: 10px;
 border: 1px solid #444;
 overflow: hidden;
 }
+
+
+
+.slider{
+  width: 300px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.slider-image{
+  width: 75%;
+  height: 75%;
+
+}
+
+
 
 img {
 border: 0;
