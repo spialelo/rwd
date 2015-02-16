@@ -1,20 +1,6 @@
 /*RWD CSS
 =====================
 
-Styles
-=======
-
-black: #000000
-darker grey: #222222
-dark grey: #333333
-grey: #444444
-light grey: #eeeeee
-
-light blue: #00c0ff
-blue: 0000ef
-
-
-*/
 
 /*===============
   General Site Styles
@@ -34,6 +20,22 @@ body{
 }
 
 
+.slider{
+  width: 300px;
+  padding-left: 60px;
+  margin: 0 auto;
+}
+
+.slider-image{
+  width: 75%;
+  height: 75%;
+
+}
+
+.slick-prev:before,
+.slick-next:before{
+  color: black;
+}
 
 .clearfix:before, .clearfix:after{
   content:"";
@@ -106,7 +108,7 @@ height: auto;
 overflow: hidden;
 }
 
-#content{
+#main-content{
   float: left;
   padding-left: 5px;
   padding-right: 5px;
@@ -212,15 +214,8 @@ li {
       display: none;
     }
 
-section{
 
-}
-
-aside{
-
-}
-
-#content{
+#main-content{
   float: left;
   padding-left: 5px;
   padding-right: 5px;
@@ -351,15 +346,9 @@ border-bottom:5px solid #444;
     border-top:5px solid #444;
 }
 
-section{
 
-}
 
-aside{
-
-}
-
-#content{
+#main-content{
   float: left;
   padding-left: 5px;
   padding-right: 5px;
@@ -489,15 +478,9 @@ border-bottom:5px solid #444;
     border-top:5px solid #444;
 }
 
-section{
 
-}
 
-aside{
-
-}
-
-#content{
+#main-content{
   float: left;
   padding-left: 5px;
   padding-right: 5px;
@@ -632,15 +615,9 @@ border-bottom:5px solid #444;
     border-top:5px solid #444;
 }
 
-section{
 
-}
 
-aside{
-
-}
-
-#content{
+#main-content{
   float: left;
   padding-left: 5px;
   padding-right: 5px;

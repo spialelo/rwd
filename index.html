@@ -1,10 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+
+<link href="css/normalize.css" type="text/css" rel="stylesheet" />
+
+
+<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/> 
+ <!-- CSS for slick slider-->
+
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<link href="css/normalize.css" type="text/css" rel="stylesheet" />
-<link href="css/main.css" type="text/css" rel="stylesheet" />
+
 
   <title>
     MC Health: Responsive Web Design
@@ -43,12 +52,19 @@
 </header>
 
 
-<section id="content">
+<section id="main-content">
   
   <section id="home-main">
     
     <!--insert jquery code for image carousel-->
-    <img src="images/bcg_slide-1.jpg" class="carousel-image"/>
+<div class="slider single-item">
+          <div><img src="images/bcg_slide-1.jpg" class="slider-image" /></div>
+          <div><img src="images/bcg_slide-2.jpg" class="slider-image" /></div>
+          <div><img src="images/bcg_slide-3.jpg" class="slider-image" /></div>
+          <div><img src="images/bcg_slide-4.jpg" class="slider-image" /></div>
+          <div><img src="images/bcg_slide-5.jpg" class="slider-image" /></div>
+        </div>
+
 
 
     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
@@ -118,7 +134,11 @@ mouth.
 
 
 
-<script type="text/javascript" src="js/main.js"></script>
+<script src="js/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="slick/slick.js"></script>
+<script type="text/javascript" src="js/rwd-main.js"></script>
+
+
 
 
 </body>
