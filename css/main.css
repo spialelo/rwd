@@ -80,7 +80,9 @@ border-left: 1px solid #666;
 border-top: 1px solid #666;
 }
 
-ul{
+
+
+nav ul{
   float: left;
   padding-left: 0px;
   padding-top: 5px;
@@ -88,13 +90,27 @@ ul{
  
 }
 
-li {
+nav ul li {
   display: inline;
-  background: #ededed;
+  }
+
+nav ul li a {
+  background-color:#ededed;
+  color: #000;
   padding: 20px 25px;
   font-weight: bold;
+  
 }
 
+nav ul li a:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+nav ul li .active {
+      background-color: #fff;
+      color: #000;
+    }
 
 .navbar-toggle{
       display: none;
@@ -122,6 +138,7 @@ width: 45%;
 margin-right: 10px;
 padding: 10px;
 border: 1px solid #444;
+overflow: hidden;
 }
 
 img {
@@ -193,7 +210,9 @@ border-left: 1px solid #666;
 border-top: 1px solid #666;
 }
 
-ul{
+
+
+nav ul{
   float: left;
   padding-left: 0px;
   padding-top: 5px;
@@ -201,13 +220,27 @@ ul{
  
 }
 
-li {
+nav ul li {
   display: inline;
-  background: #ededed;
+  }
+
+nav ul li a {
+  background-color:#ededed;
+  color: #000;
   padding: 20px 25px;
   font-weight: bold;
+  
 }
 
+nav ul li a:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+nav ul li .active {
+      background-color: #fff;
+      color: #000;
+    }
 
 
  .navbar-toggle{
@@ -228,6 +261,7 @@ width: 60%;
 margin-right: 10px;
 padding: 10px;
 border: 1px solid #444;
+overflow: hidden;
 }
 
 #home-asides{
@@ -347,6 +381,18 @@ border-bottom:5px solid #444;
 }
 
 
+.slider{
+  width: 300px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.slider-image{
+  width: 75%;
+  height: 75%;
+
+}
+
 
 #main-content{
   float: left;
@@ -367,6 +413,7 @@ width: 60%;
 margin-right: 10px;
 padding: 10px;
 border: 1px solid #444;
+overflow: hidden;
 }
 
 #home-asides{
@@ -490,10 +537,10 @@ border-bottom:5px solid #444;
 #home-main{
 float: left;
 width: 100%; 
-margin-right: 10px;
 margin-bottom: 20px;
-padding: 10px;
+padding: 20px;
 border: 1px solid #444;
+overflow: hidden;
 }
 
 img {
@@ -519,8 +566,7 @@ margin-bottom: 20px;
 #home-aside-two{
 float: left;
 width: 100%;
-margin-left: 0px;
-padding: 10px;
+padding: 20px;
 border: 1px solid #444;
 
 }
@@ -550,7 +596,7 @@ border: 1px solid #444;
 
 #container{
 margin: 10px auto 0; 
-width: 100%;
+width:100%;
 overflow: hidden;
 }
 
@@ -631,6 +677,7 @@ margin-right: 10px;
 margin-bottom: 20px;
 padding: 10px;
 border: 1px solid #444;
+overflow: hidden;
 }
 
 img {
@@ -656,20 +703,10 @@ margin-bottom: 20px;
 #home-aside-two{
 float: left;
 width: 100%; 
-margin-left: 0px;
 padding: 10px;
 border: 1px solid #444;
 
 }
-
-.carousel-image{
-  margin: 0 auto;
-  width: 80%;
-  height: 80%;
-}
-
-
-
 
 .aside-image{
   display: none;
